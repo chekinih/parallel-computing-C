@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
     printf("seq: for n=%d, time taken=%f\n", n, cpu_time_used_seq);
     //end seq
 
-    printf("\n======================================\nUsing Parallelism: \n");
+    printf("\n=====================================\nUsing Parallelism: \n");
     omp_set_num_threads(p);
     //start parallel
     //for bigger values of n obviously the speedup will remarkably increase.
